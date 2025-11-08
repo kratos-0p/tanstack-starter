@@ -1,6 +1,7 @@
 /app.config.timestamp*
 /node_modules
 /.tanstack
+/.vercel
 /.output
 /.nitro
 /.cache

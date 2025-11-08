@@ -18,17 +18,17 @@ const config = defineConfig({
     tsConfigPaths({
       projects: ['./tsconfig.json']
     }),
+    tailwindCSS(),
     tanstackStart(),
     nitroV2Plugin({
-      preset: 'node-server',
+      preset: 'vercel',
       prerender: {
         routes: ['/'],
         crawlLinks: true
       },
       compatibilityDate: 'latest'
     }),
-    viteReact(),
-    tailwindCSS()
+    viteReact()
   ]
 })
 

@@ -11,6 +11,8 @@
       "!**/.tanstack",
       "!**/.nitro",
       "!**/.output",
+      "!**/.vercel",
+      "!**/.tanstack",
       "!**/routeTree.gen.ts"
     ]
   },
@@ -32,6 +34,8 @@
       "!**/.tanstack",
       "!**/.nitro",
       "!**/.output",
+      "!**/.vercel",
+      "!**/.tanstack",
       "!**/routeTree.gen.ts"
     ]
   },
@@ -145,6 +149,8 @@
       "!**/.tanstack",
       "!**/.nitro",
       "!**/.output",
+      "!**/.vercel",
+      "!**/.tanstack",
       "!**/routeTree.gen.ts"
     ]
   },
