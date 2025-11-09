@@ -2,25 +2,28 @@
 
 ## Overview
 
-Full-stack starter template for [TanStack Start](https://tanstack.com/start/latest) applications, batteries included. Inspired by [`dotnize/react-tanstarter`](https://github.com/dotnize/react-tanstarter).
+Full-stack starter template for [`tanstack-start`](https://tanstack.com/start/latest), batteries included.
+
+Inspired by [`dotnize/react-tanstarter`](https://github.com/dotnize/react-tanstarter).
 
 This template includes the following:
 
-- [TanStack Start](https://tanstack.com/start/latest) as the framework with the [React](https://react.dev/) adapter
-- [Drizzle ORM](https://orm.drizzle.team/) for database operations and schemas
-- [Better Auth](https://www.better-auth.com/) for authentication and authorization
-- [ShadCN/UI](https://ui.shadcn.com/) for consistent design language
+- [`tanstack-start`](https://tanstack.com/start/latest)
+- [`drizzle-orm`](https://orm.drizzle.team/)
+- [`better-auth`](https://www.better-auth.com/)
+- [`shadcn/ui`](https://ui.shadcn.com/)
+- [`i18next`](https://react.i18next.com/)
 
 ## Development
 
-To quickly get started, see the [`quick start`](./docs/development/quick-start.md) guide.
+To get up to speed, see the [`quick-start`](./docs/development/quick-start.md) guide.
 
 For specific development commands, refer to one of the following:
 
-- [Developing with `npm`](./docs/commands/npm.md)
-- [Developing with `pnpm`](./docs/commands/pnpm.md)
-- [Developing with `bun`](./docs/commands/bun.md)
-- [Developing with `docker`](./docs/commands/docker.md)
+- [`npm`](./docs/commands/npm.md)
+- [`bun`](./docs/commands/bun.md)
+- [`pnpm`](./docs/commands/pnpm.md)
+- [`docker`](./docs/commands/docker.md)
 
 ## Screenshots
 
@@ -42,7 +45,7 @@ For specific development commands, refer to one of the following:
 
 ## Contributors
 
- - [`@jackytea`](https://github.com/jackytea)
+ - [`jackytea`](https://github.com/jackytea)
 
 ## References
 

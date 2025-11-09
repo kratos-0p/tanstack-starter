@@ -4,9 +4,9 @@
 
 Ensure you have one of the following programs installed on your machine:
 
-- [Docker](https://www.docker.com/)
-- [Node](https://nodejs.org/)
-- [Bun](https://bun.sh/)
+- [`docker`](https://www.docker.com/)
+- [`node`](https://nodejs.org/)
+- [`bun`](https://bun.sh/)
 
 ### **2. Environment**
 
@@ -49,9 +49,9 @@ GITHUB_CLIENT_SECRET=
 
 ## **3. Database**
 
-Ensure you have a [Postgres](https://www.postgresql.org/) database instance running to ensure migrations are ran.
+Ensure you have a [`postgres`](https://www.postgresql.org/) database instance running to ensure migrations are ran.
 
-If you have [Docker](https://www.docker.com/) installed, you can spin up a database with the following command:
+If you have [`docker`](https://www.docker.com/) installed, you can spin up a database with the following command:
 
 ```bash
 docker compose -f docker-compose.postgres.yaml up --build -d
