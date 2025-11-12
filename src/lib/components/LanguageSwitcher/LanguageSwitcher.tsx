@@ -1,5 +1,6 @@
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import { languageOptions } from '@/components/LanguageSwitcher/LanguageSwitcher.utils'
+import { langKey, languageOptions } from '@/components/LanguageSwitcher/LanguageSwitcher.utils'
 import { LANGUAGES } from '@/constants/lang.constants'
 import { Language } from '@/types/language.type'
 import { Button } from '@/ui/button'
@@ -16,7 +17,18 @@ const LanguageSwitcher = () => {
 
   const toggleLanguage = (language: Language) => {
     i18n.changeLanguage(language)
+    localStorage.setItem(langKey, language)
   }
+
+  useEffect(() => {
+    const language = localStorage.getItem(langKey)
+
+    if (!language) {
+      return
+    }
+
+    i18n.changeLanguage(language)
+  }, [i18n.changeLanguage])
 
   return (
     <div className="flex cursor-pointer items-center justify-center">

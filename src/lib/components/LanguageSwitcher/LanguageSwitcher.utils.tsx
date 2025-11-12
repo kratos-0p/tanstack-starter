@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 import { LANGUAGES } from '@/constants/lang.constants'
 import { Language } from '@/types/language.type'
 
-const langKey = 'langKey' as const
+const langKey = 'lang' as const
 
 const languageOptions: {
   [x: string]: {
