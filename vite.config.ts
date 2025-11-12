@@ -1,7 +1,7 @@
 import tailwindCSS from '@tailwindcss/vite'
-import { nitroV2Plugin } from '@tanstack/nitro-v2-vite-plugin'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
+import { nitro } from 'nitro/vite'
 import { defineConfig, loadEnv } from 'vite'
 import tsConfigPaths from 'vite-tsconfig-paths'
 
@@ -11,11 +11,13 @@ const config = defineConfig(({ mode }) => {
   return {
     server: {
       host: true,
-      open: true
+      open: true,
+      port: parseInt(env.VITE_APP_PORT, 10)
     },
     preview: {
       host: true,
-      open: false
+      open: false,
+      port: parseInt(env.VITE_APP_PORT, 10)
     },
     plugins: [
       tsConfigPaths({
@@ -23,7 +25,7 @@ const config = defineConfig(({ mode }) => {
       }),
       tailwindCSS(),
       tanstackStart(),
-      nitroV2Plugin({
+      nitro({
         prerender: {
           routes: ['/'],
           crawlLinks: true
